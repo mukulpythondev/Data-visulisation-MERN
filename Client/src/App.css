@@ -1,0 +1,97 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+  font-weight: 400;
+}
+
+.tabsClass {
+  margin: 2vw;
+  width: 96%; 
+}
+
+.header-text {
+  color: black; 
+  font-weight: bolder;
+  background: #B79891;  
+  background: -webkit-linear-gradient(to left, #94716B, #B79891);  
+  background: linear-gradient(to left, #94716B, #B79891); 
+}
+
+.cardText {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardDiv {
+  transition: transform 0.2s ease-in-out;
+}
+
+.cardDiv:hover{
+  transform: scale(1.08);
+  
+}
+
+
+.custom-tabs {
+  position: relative;
+  left: 40%;
+display: inline-block; 
+  width: fit-content; 
+  background: #46444dfb;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+
+}
+
+
+.custom-tab-content {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+
+.custom-tab-content>form>input{
+  height: 8vh;
+ width: 80%;
+ margin-left: -5%;
+ border-radius: 3vw;
+ border: 2px solid rgb(35, 77, 214);
+  
+}
+.custom-tab-content>form>button{
+  padding: 10px 20px;
+  margin-left: -4%;
+  font-size: 18px;
+  
+}
+.custom-tab-content>form{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  overflow: hidden;
+
+}
+/* Style for the second tab in the tabsClass container */
+
+
+.nav-tabs .nav-link {
+  color: white; /* Change to your desired text color */
+  
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+
+
+.nav-tabs .nav-link:not(.active):hover {
+  color: goldenrod; /* Change to your desired hover text color */
+  border-color: white; /* Change to your desired border color */
+}
